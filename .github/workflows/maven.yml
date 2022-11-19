@@ -25,7 +25,7 @@ jobs:
           image: lokchand28/create-cicd12
           tags: latest
           registry: docker.io
-          dockerfile: Dockerfile.ci
+          dockerfile: Dockerfile
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
       - name: Update dependency graph

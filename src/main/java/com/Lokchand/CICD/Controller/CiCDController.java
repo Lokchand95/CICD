@@ -13,7 +13,7 @@ public class CiCDController {
 
     @GetMapping("/getCustomer")
     public String getCustomerData(){
-        return "Hello welcome for CICD pipleine";
+        return " welcome for CICD pipleine";
     }
 
 }
